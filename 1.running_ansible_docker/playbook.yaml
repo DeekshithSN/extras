@@ -1,0 +1,9 @@
+---
+- hosts: dev
+  become: yes
+  tasks:
+    - name: Case insensitve password string match
+      expect:
+        command: passwd username
+        responses:
+          (?i)password: "MySekretPa$$word"

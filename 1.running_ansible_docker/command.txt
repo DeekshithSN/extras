@@ -1,0 +1,30 @@
+  11 vi test.yaml
+  12 vi hosts
+  13 ansible-plybook -i hosts test.yaml 
+  14 ansible-playbook -i hosts test.yaml 
+  15 exit
+  16 ansible-playbook -i hosts test.yaml -vvv
+  17 which python3
+  18 cd /etc/ansible/
+  19 ls
+  20 cd -
+  21 ls
+  22 vi ansible.cfg 
+  23 which python3
+  24 vi ansible.cfg 
+  25 ansible-playbook -i hosts test.yaml -vvv
+  26 apt install python3-pip
+  27 yum install python3-pip
+  28 apk add python3-pip
+  29 pip3 install pexpect 
+  30 ansible-playbook -i hosts test.yaml -vvv
+  31 pip install pexpect 
+  32 pip3 install "pexpect==3.3"
+  33 ansible-playbook -i hosts test.yaml -vvv
+  34 ls
+  35 ansible-playbook -i hosts test.yaml -vvv
+  36 vi ansible.cfg 
+  37 ansible-playbook -i hosts test.yaml -vvv
+  38 vi test.yaml 
+  39 ansible-playbook -i hosts test.yaml -vvv
+  40 history 
